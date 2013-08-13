@@ -8,6 +8,9 @@
 
 #import "MTViewController.h"
 #import "MTSettingsViewController.h"
+#import "MTFeebackViewController.h"
+#import "MTParkViewController.h"
+
 
 @interface MTViewController ()
 
@@ -36,11 +39,13 @@
 #pragma mark - Actions
 
 - (IBAction)pressParkManage:(id)sender {
-    
+    MTParkViewController *parkViewController = [[MTParkViewController alloc] init];
+    [self.navigationController pushViewController:parkViewController animated:YES];
 }
 
 - (IBAction)pressFeedback:(id)sender {
-    
+    MTFeebackViewController *feebackViewController = [[MTFeebackViewController alloc] init];
+    [self.navigationController pushViewController:feebackViewController animated:YES];
 }
 
 - (IBAction)pressSettings:(id)sender {
