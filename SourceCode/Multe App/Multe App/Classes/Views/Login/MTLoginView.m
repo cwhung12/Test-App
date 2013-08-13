@@ -22,7 +22,7 @@
 }
 
 - (void)setUpLoginView {
-    [self setFrameOriginY:20.0f];
+    [self setFrameOriginY:20.0f]; 
 }
 
 - (id)initWithFrame:(CGRect)frame
