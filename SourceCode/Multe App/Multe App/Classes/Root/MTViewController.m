@@ -7,8 +7,13 @@
 //
 
 #import "MTViewController.h"
+#import "MTSettingsViewController.h"
 
 @interface MTViewController ()
+
+- (IBAction)pressParkManage:(id)sender;
+- (IBAction)pressFeedback:(id)sender;
+- (IBAction)pressSettings:(id)sender;
 
 @end
 
@@ -17,13 +22,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.navigationItem.title = @"Main";
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+#pragma mark - Actions
+
+- (IBAction)pressParkManage:(id)sender {
+    
+}
+
+- (IBAction)pressFeedback:(id)sender {
+    
+}
+
+- (IBAction)pressSettings:(id)sender {
+    MTSettingsViewController *settingsViewController = [[MTSettingsViewController alloc] init];
+    [self.navigationController pushViewController:settingsViewController animated:YES];
 }
 
 @end

@@ -16,3 +16,7 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+SourceCode/Multe App/Multe App/MTFrameworks/MTProjectPrefix.h
+SourceCode/Multe App/Multe App/MTFrameworks/MTProjectPrefix.m
+SourceCode/Multe App/Multe App/MTFrameworks/UIView+MT.h
+SourceCode/Multe App/Multe App/MTFrameworks/UIView+MT.m

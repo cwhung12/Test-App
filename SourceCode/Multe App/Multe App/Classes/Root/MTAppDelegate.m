@@ -7,8 +7,8 @@
 //
 
 #import "MTAppDelegate.h"
-
 #import "MTViewController.h"
+#import "MTLoginView.h"
 
 @implementation MTAppDelegate
 
@@ -22,10 +22,16 @@
 //        self.viewController = [[MTViewController alloc] initWithNibName:@"MTViewController_iPad" bundle:nil];
 //    }
     
-    self.viewController = [[MTViewController alloc] initWithNibName:@"MTViewController_iPhone" bundle:nil];
+    self.viewController = [[MTViewController alloc] initWithNibName:@"MTViewController" bundle:nil];
     
-    self.window.rootViewController = self.viewController;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:_viewController];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
+    
+    
+    MTLoginView *loginView = [MTLoginView loginView];
+    [nav.view addSubview:loginView];
+    
     return YES;
 }
 
