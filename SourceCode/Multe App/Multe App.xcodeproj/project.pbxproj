@@ -12,8 +12,6 @@
 		57BA5CB617B9C89B005EC73E /* MTAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA5CB517B9C89B005EC73E /* MTAppSettings.m */; };
 		57BA5CC517B9CCE6005EC73E /* MTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA5CC317B9CCE6005EC73E /* MTSettingsViewController.m */; };
 		57BA5CC617B9CCE6005EC73E /* MTSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BA5CC417B9CCE6005EC73E /* MTSettingsViewController.xib */; };
-		57BA5CC917B9D114005EC73E /* MTProjectPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA5CC817B9D114005EC73E /* MTProjectPrefix.m */; };
-		57BA5CCC17B9D17D005EC73E /* UIView+MT.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA5CCB17B9D17D005EC73E /* UIView+MT.m */; };
 		57BA5CD017B9D273005EC73E /* MTFeebackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA5CCE17B9D273005EC73E /* MTFeebackViewController.m */; };
 		57BA5CD117B9D273005EC73E /* MTFeebackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BA5CCF17B9D273005EC73E /* MTFeebackViewController.xib */; };
 		57BA5CD517BA097B005EC73E /* MTParkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA5CD317BA097B005EC73E /* MTParkViewController.m */; };
@@ -29,6 +27,7 @@
 		C9D16A7B17B9296800E161C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D16A7317B9296800E161C7 /* Default-568h@2x.png */; };
 		C9D16A7C17B9296800E161C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D16A7417B9296800E161C7 /* Default.png */; };
 		C9D16A7D17B9296800E161C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D16A7517B9296800E161C7 /* Default@2x.png */; };
+		C9ED5BF917BA68BA00578777 /* UIView+MT.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ED5BF817BA68BA00578777 /* UIView+MT.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +39,6 @@
 		57BA5CC217B9CCE6005EC73E /* MTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSettingsViewController.h; sourceTree = "<group>"; };
 		57BA5CC317B9CCE6005EC73E /* MTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSettingsViewController.m; sourceTree = "<group>"; };
 		57BA5CC417B9CCE6005EC73E /* MTSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSettingsViewController.xib; sourceTree = "<group>"; };
-		57BA5CC717B9D114005EC73E /* MTProjectPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTProjectPrefix.h; sourceTree = "<group>"; };
-		57BA5CC817B9D114005EC73E /* MTProjectPrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTProjectPrefix.m; sourceTree = "<group>"; };
-		57BA5CCA17B9D17D005EC73E /* UIView+MT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MT.h"; sourceTree = "<group>"; };
-		57BA5CCB17B9D17D005EC73E /* UIView+MT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MT.m"; sourceTree = "<group>"; };
 		57BA5CCD17B9D273005EC73E /* MTFeebackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFeebackViewController.h; sourceTree = "<group>"; };
 		57BA5CCE17B9D273005EC73E /* MTFeebackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFeebackViewController.m; sourceTree = "<group>"; };
 		57BA5CCF17B9D273005EC73E /* MTFeebackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTFeebackViewController.xib; sourceTree = "<group>"; };
@@ -66,6 +61,9 @@
 		C9D16A7317B9296800E161C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C9D16A7417B9296800E161C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C9D16A7517B9296800E161C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C9ED5BF617BA687B00578777 /* MTProjectPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTProjectPrefix.h; sourceTree = "<group>"; };
+		C9ED5BF717BA68BA00578777 /* UIView+MT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MT.h"; sourceTree = "<group>"; };
+		C9ED5BF817BA68BA00578777 /* UIView+MT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MT.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,17 +132,6 @@
 			path = "Multe App/Classes/Utilities";
 			sourceTree = SOURCE_ROOT;
 		};
-		57BA5CB717B9C8DA005EC73E /* MTFrameworks */ = {
-			isa = PBXGroup;
-			children = (
-				57BA5CCA17B9D17D005EC73E /* UIView+MT.h */,
-				57BA5CCB17B9D17D005EC73E /* UIView+MT.m */,
-				57BA5CC717B9D114005EC73E /* MTProjectPrefix.h */,
-				57BA5CC817B9D114005EC73E /* MTProjectPrefix.m */,
-			);
-			path = MTFrameworks;
-			sourceTree = "<group>";
-		};
 		57BA5CBF17B9CC7A005EC73E /* Nofication Feedback */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,7 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				C9D16A6917B9296800E161C7 /* Classes */,
-				57BA5CB717B9C8DA005EC73E /* MTFrameworks */,
+				C9ED5BF517BA686200578777 /* MTFrameworks */,
 				C9D16A7117B9296800E161C7 /* Resources */,
 				C9D16A4A17B9110900E161C7 /* Supporting Files */,
 			);
@@ -273,6 +260,16 @@
 			children = (
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		C9ED5BF517BA686200578777 /* MTFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9ED5BF717BA68BA00578777 /* UIView+MT.h */,
+				C9ED5BF817BA68BA00578777 /* UIView+MT.m */,
+				C9ED5BF617BA687B00578777 /* MTProjectPrefix.h */,
+			);
+			path = MTFrameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,10 +348,9 @@
 				57BA5CB017B9C6A7005EC73E /* MTLoginView.m in Sources */,
 				57BA5CB617B9C89B005EC73E /* MTAppSettings.m in Sources */,
 				57BA5CC517B9CCE6005EC73E /* MTSettingsViewController.m in Sources */,
-				57BA5CC917B9D114005EC73E /* MTProjectPrefix.m in Sources */,
-				57BA5CCC17B9D17D005EC73E /* UIView+MT.m in Sources */,
 				57BA5CD017B9D273005EC73E /* MTFeebackViewController.m in Sources */,
 				57BA5CD517BA097B005EC73E /* MTParkViewController.m in Sources */,
+				C9ED5BF917BA68BA00578777 /* UIView+MT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

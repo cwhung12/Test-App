@@ -30,6 +30,7 @@
     
     
     MTLoginView *loginView = [MTLoginView loginView];
+    [loginView setFrameSize:nav.view.bounds.size];
     [nav.view addSubview:loginView];
     
     return YES;
